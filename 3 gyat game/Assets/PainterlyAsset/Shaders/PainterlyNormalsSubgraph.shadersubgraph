@@ -1448,7 +1448,6 @@
     "m_SourceType": 0,
     "m_FunctionName": "PainterlyNormalsSimple",
     "m_FunctionSource": "6ce3babaf0f4745e48960db7a002c54f",
-    "m_FunctionSourceUsePragmas": true,
     "m_FunctionBody": "Enter function body here..."
 }
 
