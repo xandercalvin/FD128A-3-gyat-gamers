@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7090790039389219687
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: truck
+  m_Shader: {fileID: -6465566751694194690, guid: d2f91465ec99a41cca1de94d4dce60e0, type: 3}
+  m_Parent: {fileID: 2100000, guid: 52d7422da5df9ab4b914495e6c3e0bb8, type: 2}
+  m_ModifiedSerializedProperties: 2
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BC_rgb_smoothness_a:
+        m_Texture: {fileID: 2800000, guid: 5279975a360f66a438fc083f0b7d8152, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _glowing:
+        m_Texture: {fileID: 2800000, guid: 5279975a360f66a438fc083f0b7d8152, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _StrokeBlendingNoiseStrength: 0.069
+    - _StrokeRandomness: 0.484
+    - _StrokeScale: 5
+    - _Variation: 0.79
+    m_Colors:
+    - _VariationColorA: {r: 0.532265, g: 0.5857714, b: 0.59568727, a: 0}
+    - _VariationColorB: {r: 0.534097, g: 0.6226415, b: 0.3918781, a: 0}
+    - _glowing_tint: {r: 0.586464, g: 0.7346641, b: 0.7897574, a: 0}
+  m_BuildTextureStacks: []
