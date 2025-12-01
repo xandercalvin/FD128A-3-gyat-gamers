@@ -153,7 +153,7 @@ Material:
     - _VariationColorB: {r: 1, g: 0.1603772, b: 0.53099877, a: 0}
     - _glow: {r: 0.30997294, g: 0.15832847, b: 0.15832847, a: 0}
     - _glow_tint: {r: 0, g: 0, b: 0, a: 0}
-    - _glowing_tint: {r: 0.832884, g: 0.62924904, b: 0.3535828, a: 0}
+    - _glowing_tint: {r: 1, g: 0.72025096, b: 0.34366566, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3484403197651262064
 MonoBehaviour:
