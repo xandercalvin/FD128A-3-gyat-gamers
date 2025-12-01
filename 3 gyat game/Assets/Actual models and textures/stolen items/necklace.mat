@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7090790039389219687
+--- !u!114 &-7421247355303161216
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,9 +20,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: truck
+  m_Name: necklace
   m_Shader: {fileID: -6465566751694194690, guid: d2f91465ec99a41cca1de94d4dce60e0, type: 3}
-  m_Parent: {fileID: 2100000, guid: 52d7422da5df9ab4b914495e6c3e0bb8, type: 2}
+  m_Parent: {fileID: 2100000, guid: 9712ebbe02ac2ed49879ae1df5df2b95, type: 2}
   m_ModifiedSerializedProperties: 2
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -37,21 +37,21 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BC_rgb_smoothness_a:
-        m_Texture: {fileID: 2800000, guid: 5279975a360f66a438fc083f0b7d8152, type: 3}
+        m_Texture: {fileID: 2800000, guid: 54e1a78f238a564428e11ea9e9af9b45, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _glowing:
-        m_Texture: {fileID: 2800000, guid: 5279975a360f66a438fc083f0b7d8152, type: 3}
+        m_Texture: {fileID: 2800000, guid: 54e1a78f238a564428e11ea9e9af9b45, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _StrokeBlendingNoiseStrength: 0.069
-    - _StrokeRandomness: 0.484
-    - _StrokeScale: 5
-    - _Variation: 0.79
+    - _StrokeBlendingNoiseStrength: 0.313
+    - _StrokeRandomness: 0.55
+    - _StrokeScale: 9
     m_Colors:
-    - _VariationColorA: {r: 0.532265, g: 0.5857714, b: 0.59568727, a: 0}
-    - _VariationColorB: {r: 0.534097, g: 0.6226415, b: 0.3918781, a: 0}
-    - _glowing_tint: {r: 0.39607844, g: 0.44956356, b: 0.49411765, a: 0}
+    - _BaseColor: {r: 1, g: 0.8915094, b: 0.8915094, a: 1}
+    - _VariationColorA: {r: 0.91528314, g: 1, b: 0.81960785, a: 0}
+    - _VariationColorB: {r: 1, g: 0.495283, b: 0.7169812, a: 0}
+    - _glowing_tint: {r: 0.9622642, g: 0.8643694, b: 0.70354223, a: 0}
   m_BuildTextureStacks: []
