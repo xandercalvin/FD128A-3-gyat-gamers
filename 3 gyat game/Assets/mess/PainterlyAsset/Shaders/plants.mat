@@ -29,14 +29,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Metalic: 0
     - _QueueControl: 0
     - _Smoothness: 0
     - _StrokeBlendingNoiseScale: 20
-    - _StrokeBlendingNoiseStrength: 0.369
-    - _StrokeRandomness: 0.483
+    - _StrokeBlendingNoiseStrength: 0.325
+    - _StrokeRandomness: 0.457
     - _StrokeScale: 25
     - _Transparency: 0.9
-    - _Variation: 0.708
+    - _Variation: 0.521
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
     - _VariationColorA: {r: 0.5973293, g: 1, b: 0.56468993, a: 0}

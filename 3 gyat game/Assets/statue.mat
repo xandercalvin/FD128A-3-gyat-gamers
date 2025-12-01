@@ -37,7 +37,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BC_rgb_smoothness_a:
-        m_Texture: {fileID: 2800000, guid: 9e62a6be4ef6ff24e885505f3bc36b09, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _glowing:
@@ -48,14 +48,14 @@ Material:
     m_Floats:
     - _Metalic: 2
     - _Smoothness: 1
-    - _StrokeBlendingNoiseScale: 10
-    - _StrokeBlendingNoiseStrength: 0.248
-    - _StrokeRandomness: 0.38
-    - _StrokeScale: 5
+    - _StrokeBlendingNoiseScale: 100
+    - _StrokeBlendingNoiseStrength: 0.493
+    - _StrokeRandomness: 0.613
+    - _StrokeScale: 2.5
     - _Variation: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0.79607844, b: 0, a: 1}
+    - _BaseColor: {r: 1, g: 0.9000217, b: 0.2951482, a: 1}
     - _VariationColorA: {r: 1, g: 0.7654506, b: 0, a: 0}
     - _VariationColorB: {r: 1, g: 0.13494737, b: 0, a: 0}
-    - _glowing_tint: {r: 1, g: 0.92250675, b: 0.59703493, a: 0}
+    - _glowing_tint: {r: 1, g: 0.90237784, b: 0.41374654, a: 0}
   m_BuildTextureStacks: []
