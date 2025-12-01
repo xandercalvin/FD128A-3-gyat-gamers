@@ -53,5 +53,5 @@ Material:
     m_Colors:
     - _VariationColorA: {r: 0.532265, g: 0.5857714, b: 0.59568727, a: 0}
     - _VariationColorB: {r: 0.534097, g: 0.6226415, b: 0.3918781, a: 0}
-    - _glowing_tint: {r: 0.586464, g: 0.7346641, b: 0.7897574, a: 0}
+    - _glowing_tint: {r: 0.39607844, g: 0.44956356, b: 0.49411765, a: 0}
   m_BuildTextureStacks: []
