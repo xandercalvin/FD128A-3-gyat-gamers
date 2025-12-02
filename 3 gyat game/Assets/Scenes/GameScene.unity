@@ -10613,7 +10613,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7386655063385934927, guid: a3d409ee306c26840b7361d9278d2ee8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.104
+      value: 0.148
       objectReference: {fileID: 0}
     - target: {fileID: 7386655063385934927, guid: a3d409ee306c26840b7361d9278d2ee8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10645,7 +10645,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8485474956053029380, guid: a3d409ee306c26840b7361d9278d2ee8, type: 3}
       propertyPath: m_text
-      value: burger
+      value: 'burger
+
+        (mmm burger)'
       objectReference: {fileID: 0}
     - target: {fileID: 8485474956053029380, guid: a3d409ee306c26840b7361d9278d2ee8, type: 3}
       propertyPath: m_fontStyle
