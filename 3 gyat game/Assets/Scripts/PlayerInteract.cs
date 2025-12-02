@@ -45,24 +45,24 @@ public class PlayerInteract : MonoBehaviour
     }
     public void Interact()
     {
-        if (Input.GetKeyDown(KeyCode.E)) //this method is checking for the interactable object once we press the button to interact. We again have to that the object in front of us is interactable, and if the object is tagged as Door, it gets the script that is attached to the door and tells it to execute the Interact method. In our door script, that means to close it if it is open, and open it if it is closed. 
-        {
-            Debug.Log("pressed e");
-            RaycastHit hit;
-            if (Physics.Raycast(this.transform.position, this.transform.forward, out hit, interactDistance))
-            {
-                Debug.Log(hit.collider.name);
-                if (hit.collider.CompareTag("Door"))
-                {
-                    Debug.Log("hit door");
-                    hit.collider.gameObject.GetComponent<DoorOpen>().Interact();
-                }
-                else
-                {
-                    Debug.Log("No interactable found"); //if we press E but do not hit anything tagged as Door, the console tells us that it could not find an object to interact with.
-                }
-            }
-        }
+        //if (Input.GetKeyDown(KeyCode.E)) //this method is checking for the interactable object once we press the button to interact. We again have to that the object in front of us is interactable, and if the object is tagged as Door, it gets the script that is attached to the door and tells it to execute the Interact method. In our door script, that means to close it if it is open, and open it if it is closed. 
+        //{
+        //    Debug.Log("pressed e");
+        //    RaycastHit hit;
+        //    if (Physics.Raycast(this.transform.position, this.transform.forward, out hit, interactDistance))
+        //    {
+        //        Debug.Log(hit.collider.name);
+        //        if (hit.collider.CompareTag("Door"))
+        //        {
+        //            Debug.Log("hit door");
+        //            hit.collider.gameObject.GetComponent<DoorOpen>().Interact();
+        //        }
+        //        else
+        //        {
+        //            Debug.Log("No interactable found"); //if we press E but do not hit anything tagged as Door, the console tells us that it could not find an object to interact with.
+        //        }
+        //    }
+        //}
 
     }
 
